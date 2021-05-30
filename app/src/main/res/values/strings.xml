@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VitrinovaApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fast_shipment">HIZLI KARGO</string>
+    <string name="discover_search_hint">Ürün veya vitrin ara</string>
+    <string name="no_internet">Lütfen internet bağlantınızı kontrol ediniz.</string>
+</resources>
