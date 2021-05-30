@@ -16,7 +16,7 @@ Model-View-ViewModel (ie MVVM) is a template of a client application architectur
 
 
 ## Clean Simple Architecture
-![Architecture](https://github.com/onurbarman/VitrinovaApp/blob/master/images/mvvm.PNG)
+![Architecture](https://github.com/onurbarman/VitrinovaApp/blob/master/images/mvvm.png)
 
 ## Libraries and tools 🛠
 
