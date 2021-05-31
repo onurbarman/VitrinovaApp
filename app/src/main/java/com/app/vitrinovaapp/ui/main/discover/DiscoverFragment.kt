@@ -70,12 +70,11 @@ class DiscoverFragment : Fragment(R.layout.fragment_discover) {
             editorShopsAdapter = EditorShopsAdapter(listOf())
             newShopsAdapter = NewShopsAdapter(listOf())
 
-            val horizontalLayoutManager = LinearLayoutManager(requireContext(),RecyclerView.HORIZONTAL,false)
-            recyclerViewProducts.layoutManager = horizontalLayoutManager
-            recyclerViewCategories.layoutManager = horizontalLayoutManager
-            recyclerViewCollections.layoutManager = horizontalLayoutManager
-            recyclerViewEditorShops.layoutManager = horizontalLayoutManager
-            recyclerViewNewShops.layoutManager = horizontalLayoutManager
+            recyclerViewProducts.layoutManager = LinearLayoutManager(requireContext(),RecyclerView.HORIZONTAL,false)
+            recyclerViewCategories.layoutManager = LinearLayoutManager(requireContext(),RecyclerView.HORIZONTAL,false)
+            recyclerViewCollections.layoutManager = LinearLayoutManager(requireContext(),RecyclerView.HORIZONTAL,false)
+            recyclerViewEditorShops.layoutManager = LinearLayoutManager(requireContext(),RecyclerView.HORIZONTAL,false)
+            recyclerViewNewShops.layoutManager = LinearLayoutManager(requireContext(),RecyclerView.HORIZONTAL,false)
         }
     }
 
